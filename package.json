@@ -1,20 +1,32 @@
 {
-  "name": "Node",
+  "name": "nodejs-express-first-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](docs/screenshot.png)",
   "main": "index.js",
   "scripts": {
-    "start": "node src"
-    
-    
+    "start": "node src",
+    "dev": "nodemon src/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
-  }
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badkluster/Web-NodeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/badkluster/Web-NodeJS/issues"
+  },
+  "homepage": "https://github.com/badkluster/Web-NodeJS#readme"
 }
